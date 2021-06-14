@@ -1,11 +1,8 @@
-import {FaShoppingCart} from `react-icons/fa`
+
+import {FaShoppingCart} from 'react-icons/fa'
 
 const Icon = () => {
-    return ( 
-        <>
-          
-        </>
-     );
+    return <FaShoppingCart />;
 }
  
 export default Icon;
