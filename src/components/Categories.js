@@ -2,7 +2,7 @@ const Categories = ({categoryname, imagesrc}) => {
     return ( 
         <>
         <div className="categories__items">
-        <img src={imagesrc} alt="Picture of food that fits the category" className="image" width="80em" height="80em"></img>
+        <img src={imagesrc} alt="Food that fits the category" className="image" width="90em" height="90em"></img>
         <h3>{categoryname}</h3>
         </div>
         </>
