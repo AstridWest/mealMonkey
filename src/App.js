@@ -2,11 +2,23 @@ import './App.scss';
 import Greeting from './components/Greeting';
 import Categories from './components/Categories';
 import Restaurents from './components/Restaurents';
+import Counter from './components/Counter';
+import TheMeal from './components/TheMeal';
+import Meals from "./components/Meals";
+import {Router} from "@reach/router";
 
 function App() {
   return (
     <>
+    <Router>
+      <TheMeal path="/" />
+      <Meals path="/:category" />
+    </Router>
+
      <Greeting name="Akila"/>
+     <Counter />
+     <TheMeal />
+
      <div className="categories">
      <Categories categoryname="Offers" imagesrc="https://source.unsplash.com/featured/?food" />
      <Categories categoryname="Sri Lankan" imagesrc="https://source.unsplash.com/featured/?food,srilankan" />
