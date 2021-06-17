@@ -1,6 +1,8 @@
 import {ThemeProvider} from "styled-components";
 import LargeHeading from "../elements/LargeHeadings";
+import EmotionComponent from "./EmotionComponent";
 import ProportionalBox from "./ProportionalBox";
+import EmotionComponent from "./EmotionComponent";
 
 const theme = {
     primary: "goldenrod",
@@ -26,6 +28,8 @@ const Styled = () => {
                 <LargeHeading color="primary" as="h3">Stor overskrift!</LargeHeading> 
                 <input type="text" name="bla" id="bla" />
                 <button>Create</button>
+
+                <EmotionComponent/>
 
                 <ProportionalBox>
                     <img src="" alt=""/>
